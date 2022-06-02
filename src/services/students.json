@@ -1,0 +1,44 @@
+[
+    {
+        "id": 4,
+        "name": "Izaskun",
+        "surname" : "Gomez Sanz",
+        "group": "Grado 5",
+        "isWednesdayStudent": true,
+        "alergies": [
+            "Gluten",
+            "Lactosa"
+        ]
+    },
+  {
+        "id": 1,
+        "name": "Naroa",
+        "surname" : "Arcediano",
+        "group": "Grado 2",
+        "isWednesdayStudent": false,
+        "alergies": [
+            "Gluten",
+            "Huevo"
+        ]
+  },
+  {
+        "id": 2,
+        "name": "Tamara",
+        "surname" : "Blanco Gomez",
+        "group": "Intermediate",
+        "isWednesdayStudent": true,
+        "alergies": [
+            "Pescado",
+            "Cerdo"
+        ]
+  },
+  {
+        "id": 3,
+        "name": "Iraitz",
+        "surname" : "Puente Tellechea",
+        "group": "Primary",
+        "isWednesdayStudent": false,
+        "alergies": [
+        ]
+  }
+]
