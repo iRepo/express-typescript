@@ -1,4 +1,4 @@
-import { StudentEntry } from '../types'
+import { StudentEntry, NewStudentEntry } from '../types'
 import studentData from './students.json'
 
 const student: StudentEntry[] = studentData as StudentEntry[]
@@ -13,12 +13,11 @@ export const findById = (id: number): StudentEntry | undefined => {
   return undefined
 }
 
-/* export const addDiary = (newDiaryEntry: NewDiaryEntry): DiaryEntry => {
-  const newDiary: DiaryEntry = {
-    id: Math.max(...student.map(diary => diary.id)) + 1,
-    ...newDiaryEntry
+export const addStudent = (NewStudentEntry: NewStudentEntry): StudentEntry => {
+  const newStudent: StudentEntry = {
+    id: Math.max(...student.map(student => student.id)) + 1,
+    ...NewStudentEntry
   }
-
-  student.push(newDiary)
-  return newDiary
-} */
+  student.push(newStudent)
+  return newStudent
+}
